@@ -6,11 +6,16 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <style>
+
+        * {
+            overflow-x: hidden;
+        }
+
         html, body {
             margin: 0;
             width: 100%;
             height: 100%;
-            overflow-x: scroll;
+            overflow-x: hidden;
             font-family: 'Comic Sans MS';
         }
          .center-y {
@@ -27,7 +32,7 @@
             display: flex;
             flex-direction: row;
             justify-content: center;
-            overflow-x: scroll !important;
+            overflow-x: hidden;
         }
     </style>
     <title></title>
